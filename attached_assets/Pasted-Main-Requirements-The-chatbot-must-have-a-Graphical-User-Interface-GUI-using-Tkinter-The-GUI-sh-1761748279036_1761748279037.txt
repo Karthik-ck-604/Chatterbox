@@ -1,0 +1,63 @@
+Main Requirements
+
+The chatbot must have a Graphical User Interface (GUI) using Tkinter.
+
+The GUI should be visually attractive with:
+
+Pleasant background colors (preferably a mix of green, blue, and earthy tones to match the mangrove theme).
+
+A chat window with smooth scrolling, animated typing effect, and color-coded messages (different colors for user and bot messages).
+
+A mangrove forest background image or small bot icon/logo related to nature.
+
+Simple fade-in or text-typing animation when the chatbot replies.
+
+The chatbot should simulate a real conversation, where the user can type a message and the bot replies in the chat area.
+
+It should answer only questions related to Mangrove Forests, including:
+
+Flora (plant species, adaptations, etc.)
+
+Fauna (animals, birds, and marine species)
+
+Economic importance (timber, honey, coastal protection, etc.)
+
+Tourism (eco-tourism, sightseeing, photography)
+
+Ecological benefits (carbon storage, erosion prevention, biodiversity)
+
+The chatbot should have a built-in knowledge base (dictionary or JSON) containing short, factual, easy-to-understand answers about mangrove forests.
+
+If a user asks a question not related to Mangrove Forests, the chatbot must politely decline with responses like:
+
+“I’m sorry, I can only answer questions about mangrove forests.”
+
+“Please ask me something related to mangroves, such as their plants, animals, or ecological importance.”
+
+Include randomized greetings (“Hi! 🌿 I’m MANGO, your Mangrove Forest Chatbot!”) and farewells (“Goodbye! Thanks for learning about mangroves 🌱”).
+
+The chatbot should run until the user closes the window or types “bye”, “exit”, or “quit”.
+
+Add clear comments in the code explaining:
+
+GUI design
+
+Event handling (user input, bot output)
+
+Knowledge base
+
+Keyword detection (how the bot decides if the question is relevant)
+
+Animation or delay logic
+
+The code must be beginner-friendly, self-contained, and run without external API keys — only use standard Python libraries (tkinter, random, time, re, etc.).
+
+Finally, include a sample conversation output showing:
+
+A few relevant questions (e.g., “What plants grow in mangrove forests?”)
+
+A few off-topic questions (e.g., “Who is the president of India?”)
+
+How the chatbot politely responds in both cases.
+
+Bonus (if possible): Add a background image or small icon in the top corner and ensure the window is resizable and centered on screen.
